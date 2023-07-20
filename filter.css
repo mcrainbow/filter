@@ -1,0 +1,77 @@
+@import url("./normalize.css");
+
+/* ! Styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+}
+
+.leftMenu {
+  flex: 1;
+}
+
+.search {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid gray;
+}
+
+h1 {
+  font-size: 30px;
+  color: #555;
+  font-weight: 300;
+}
+
+.catigories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.catigorie {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+.price {
+}
+.priceRange {
+}
+.priceValue {
+}
+.content {
+  flex: 4;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 220px;
+  padding-bottom: 20px;
+
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+.name {
+  font-weight: 300;
+}
+.prodPrice {
+}
