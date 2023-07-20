@@ -9,7 +9,7 @@ body {
 .container {
   display: flex;
   padding: 50px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .leftMenu {
@@ -52,7 +52,8 @@ h1 {
 .products {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  row-gap: 40px;
+  column-gap: 50px;
 }
 .product {
   display: flex;
@@ -63,6 +64,7 @@ h1 {
   padding-bottom: 20px;
 
   box-sizing: border-box;
+  border-radius: 10px;
   border: 1px solid gray;
 }
 img {
